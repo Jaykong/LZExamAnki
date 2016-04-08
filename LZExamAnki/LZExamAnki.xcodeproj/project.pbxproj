@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D03BC541CB79C2F00B7613D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC531CB79C2F00B7613D /* main.m */; };
+		8D03BC571CB79C2F00B7613D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC561CB79C2F00B7613D /* AppDelegate.m */; };
+		8D03BC5A1CB79C2F00B7613D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC591CB79C2F00B7613D /* ViewController.m */; };
+		8D03BC5D1CB79C2F00B7613D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D03BC5B1CB79C2F00B7613D /* Main.storyboard */; };
+		8D03BC5F1CB79C2F00B7613D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D03BC5E1CB79C2F00B7613D /* Assets.xcassets */; };
+		8D03BC621CB79C2F00B7613D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D03BC601CB79C2F00B7613D /* LaunchScreen.storyboard */; };
+		8D03BC6D1CB79C2F00B7613D /* LZExamAnkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC6C1CB79C2F00B7613D /* LZExamAnkiTests.m */; };
+		8D03BC781CB79C2F00B7613D /* LZExamAnkiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC771CB79C2F00B7613D /* LZExamAnkiUITests.m */; };
+		8D03BC881CB7A19700B7613D /* LZEAPaperInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC871CB7A19700B7613D /* LZEAPaperInfoViewController.m */; };
+		8D03BC8B1CB7A1AD00B7613D /* LZEABookmarkQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC8A1CB7A1AD00B7613D /* LZEABookmarkQuestionViewController.m */; };
+		8D03BC8E1CB7A1BB00B7613D /* LZEAWrongQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC8D1CB7A1BB00B7613D /* LZEAWrongQuestionViewController.m */; };
+		8D03BC911CB7A1C700B7613D /* LZEAFlashCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC901CB7A1C700B7613D /* LZEAFlashCardViewController.m */; };
+		8D03BC941CB7A1DE00B7613D /* LZEAFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC931CB7A1DE00B7613D /* LZEAFeedbackViewController.m */; };
+		8D03BC971CB7A1EA00B7613D /* LZEAAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC961CB7A1EA00B7613D /* LZEAAboutViewController.m */; };
+		8D03BC9A1CB7A1F500B7613D /* LZEAShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC991CB7A1F500B7613D /* LZEAShareViewController.m */; };
+		8D03BC9D1CB7A20000B7613D /* LZEAImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03BC9C1CB7A20000B7613D /* LZEAImportViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D03BC691CB79C2F00B7613D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D03BC471CB79C2F00B7613D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D03BC4E1CB79C2F00B7613D;
+			remoteInfo = LZExamAnki;
+		};
+		8D03BC741CB79C2F00B7613D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D03BC471CB79C2F00B7613D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D03BC4E1CB79C2F00B7613D;
+			remoteInfo = LZExamAnki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D03BC4F1CB79C2F00B7613D /* LZExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D03BC531CB79C2F00B7613D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D03BC551CB79C2F00B7613D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D03BC561CB79C2F00B7613D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D03BC581CB79C2F00B7613D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D03BC591CB79C2F00B7613D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D03BC5C1CB79C2F00B7613D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D03BC5E1CB79C2F00B7613D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D03BC611CB79C2F00B7613D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D03BC631CB79C2F00B7613D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D03BC681CB79C2F00B7613D /* LZExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D03BC6C1CB79C2F00B7613D /* LZExamAnkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZExamAnkiTests.m; sourceTree = "<group>"; };
+		8D03BC6E1CB79C2F00B7613D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D03BC731CB79C2F00B7613D /* LZExamAnkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZExamAnkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D03BC771CB79C2F00B7613D /* LZExamAnkiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZExamAnkiUITests.m; sourceTree = "<group>"; };
+		8D03BC791CB79C2F00B7613D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D03BC861CB7A19700B7613D /* LZEAPaperInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEAPaperInfoViewController.h; sourceTree = "<group>"; };
+		8D03BC871CB7A19700B7613D /* LZEAPaperInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEAPaperInfoViewController.m; sourceTree = "<group>"; };
+		8D03BC891CB7A1AD00B7613D /* LZEABookmarkQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEABookmarkQuestionViewController.h; sourceTree = "<group>"; };
+		8D03BC8A1CB7A1AD00B7613D /* LZEABookmarkQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEABookmarkQuestionViewController.m; sourceTree = "<group>"; };
+		8D03BC8C1CB7A1BB00B7613D /* LZEAWrongQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEAWrongQuestionViewController.h; sourceTree = "<group>"; };
+		8D03BC8D1CB7A1BB00B7613D /* LZEAWrongQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEAWrongQuestionViewController.m; sourceTree = "<group>"; };
+		8D03BC8F1CB7A1C700B7613D /* LZEAFlashCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEAFlashCardViewController.h; sourceTree = "<group>"; };
+		8D03BC901CB7A1C700B7613D /* LZEAFlashCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEAFlashCardViewController.m; sourceTree = "<group>"; };
+		8D03BC921CB7A1DE00B7613D /* LZEAFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEAFeedbackViewController.h; sourceTree = "<group>"; };
+		8D03BC931CB7A1DE00B7613D /* LZEAFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEAFeedbackViewController.m; sourceTree = "<group>"; };
+		8D03BC951CB7A1EA00B7613D /* LZEAAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEAAboutViewController.h; sourceTree = "<group>"; };
+		8D03BC961CB7A1EA00B7613D /* LZEAAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEAAboutViewController.m; sourceTree = "<group>"; };
+		8D03BC981CB7A1F500B7613D /* LZEAShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEAShareViewController.h; sourceTree = "<group>"; };
+		8D03BC991CB7A1F500B7613D /* LZEAShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEAShareViewController.m; sourceTree = "<group>"; };
+		8D03BC9B1CB7A20000B7613D /* LZEAImportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEAImportViewController.h; sourceTree = "<group>"; };
+		8D03BC9C1CB7A20000B7613D /* LZEAImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEAImportViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D03BC4C1CB79C2F00B7613D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D03BC651CB79C2F00B7613D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D03BC701CB79C2F00B7613D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D03BC461CB79C2F00B7613D = {
+			isa = PBXGroup;
+			children = (
+				8D03BC511CB79C2F00B7613D /* LZExamAnki */,
+				8D03BC6B1CB79C2F00B7613D /* LZExamAnkiTests */,
+				8D03BC761CB79C2F00B7613D /* LZExamAnkiUITests */,
+				8D03BC501CB79C2F00B7613D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D03BC501CB79C2F00B7613D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D03BC4F1CB79C2F00B7613D /* LZExamAnki.app */,
+				8D03BC681CB79C2F00B7613D /* LZExamAnkiTests.xctest */,
+				8D03BC731CB79C2F00B7613D /* LZExamAnkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D03BC511CB79C2F00B7613D /* LZExamAnki */ = {
+			isa = PBXGroup;
+			children = (
+				8D03BC851CB7A13F00B7613D /* ViewControllers */,
+				8D03BC551CB79C2F00B7613D /* AppDelegate.h */,
+				8D03BC561CB79C2F00B7613D /* AppDelegate.m */,
+				8D03BC581CB79C2F00B7613D /* ViewController.h */,
+				8D03BC591CB79C2F00B7613D /* ViewController.m */,
+				8D03BC5B1CB79C2F00B7613D /* Main.storyboard */,
+				8D03BC5E1CB79C2F00B7613D /* Assets.xcassets */,
+				8D03BC601CB79C2F00B7613D /* LaunchScreen.storyboard */,
+				8D03BC631CB79C2F00B7613D /* Info.plist */,
+				8D03BC521CB79C2F00B7613D /* Supporting Files */,
+			);
+			path = LZExamAnki;
+			sourceTree = "<group>";
+		};
+		8D03BC521CB79C2F00B7613D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D03BC531CB79C2F00B7613D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D03BC6B1CB79C2F00B7613D /* LZExamAnkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D03BC6C1CB79C2F00B7613D /* LZExamAnkiTests.m */,
+				8D03BC6E1CB79C2F00B7613D /* Info.plist */,
+			);
+			path = LZExamAnkiTests;
+			sourceTree = "<group>";
+		};
+		8D03BC761CB79C2F00B7613D /* LZExamAnkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D03BC771CB79C2F00B7613D /* LZExamAnkiUITests.m */,
+				8D03BC791CB79C2F00B7613D /* Info.plist */,
+			);
+			path = LZExamAnkiUITests;
+			sourceTree = "<group>";
+		};
+		8D03BC851CB7A13F00B7613D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D03BC861CB7A19700B7613D /* LZEAPaperInfoViewController.h */,
+				8D03BC871CB7A19700B7613D /* LZEAPaperInfoViewController.m */,
+				8D03BC891CB7A1AD00B7613D /* LZEABookmarkQuestionViewController.h */,
+				8D03BC8A1CB7A1AD00B7613D /* LZEABookmarkQuestionViewController.m */,
+				8D03BC8C1CB7A1BB00B7613D /* LZEAWrongQuestionViewController.h */,
+				8D03BC8D1CB7A1BB00B7613D /* LZEAWrongQuestionViewController.m */,
+				8D03BC8F1CB7A1C700B7613D /* LZEAFlashCardViewController.h */,
+				8D03BC901CB7A1C700B7613D /* LZEAFlashCardViewController.m */,
+				8D03BC921CB7A1DE00B7613D /* LZEAFeedbackViewController.h */,
+				8D03BC931CB7A1DE00B7613D /* LZEAFeedbackViewController.m */,
+				8D03BC951CB7A1EA00B7613D /* LZEAAboutViewController.h */,
+				8D03BC961CB7A1EA00B7613D /* LZEAAboutViewController.m */,
+				8D03BC981CB7A1F500B7613D /* LZEAShareViewController.h */,
+				8D03BC991CB7A1F500B7613D /* LZEAShareViewController.m */,
+				8D03BC9B1CB7A20000B7613D /* LZEAImportViewController.h */,
+				8D03BC9C1CB7A20000B7613D /* LZEAImportViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D03BC4E1CB79C2F00B7613D /* LZExamAnki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D03BC7C1CB79C2F00B7613D /* Build configuration list for PBXNativeTarget "LZExamAnki" */;
+			buildPhases = (
+				8D03BC4B1CB79C2F00B7613D /* Sources */,
+				8D03BC4C1CB79C2F00B7613D /* Frameworks */,
+				8D03BC4D1CB79C2F00B7613D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZExamAnki;
+			productName = LZExamAnki;
+			productReference = 8D03BC4F1CB79C2F00B7613D /* LZExamAnki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D03BC671CB79C2F00B7613D /* LZExamAnkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D03BC7F1CB79C2F00B7613D /* Build configuration list for PBXNativeTarget "LZExamAnkiTests" */;
+			buildPhases = (
+				8D03BC641CB79C2F00B7613D /* Sources */,
+				8D03BC651CB79C2F00B7613D /* Frameworks */,
+				8D03BC661CB79C2F00B7613D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D03BC6A1CB79C2F00B7613D /* PBXTargetDependency */,
+			);
+			name = LZExamAnkiTests;
+			productName = LZExamAnkiTests;
+			productReference = 8D03BC681CB79C2F00B7613D /* LZExamAnkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D03BC721CB79C2F00B7613D /* LZExamAnkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D03BC821CB79C2F00B7613D /* Build configuration list for PBXNativeTarget "LZExamAnkiUITests" */;
+			buildPhases = (
+				8D03BC6F1CB79C2F00B7613D /* Sources */,
+				8D03BC701CB79C2F00B7613D /* Frameworks */,
+				8D03BC711CB79C2F00B7613D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D03BC751CB79C2F00B7613D /* PBXTargetDependency */,
+			);
+			name = LZExamAnkiUITests;
+			productName = LZExamAnkiUITests;
+			productReference = 8D03BC731CB79C2F00B7613D /* LZExamAnkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D03BC471CB79C2F00B7613D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BrookZero;
+				TargetAttributes = {
+					8D03BC4E1CB79C2F00B7613D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KR45P2EQA9;
+					};
+					8D03BC671CB79C2F00B7613D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KR45P2EQA9;
+						TestTargetID = 8D03BC4E1CB79C2F00B7613D;
+					};
+					8D03BC721CB79C2F00B7613D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KR45P2EQA9;
+						TestTargetID = 8D03BC4E1CB79C2F00B7613D;
+					};
+				};
+			};
+			buildConfigurationList = 8D03BC4A1CB79C2F00B7613D /* Build configuration list for PBXProject "LZExamAnki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D03BC461CB79C2F00B7613D;
+			productRefGroup = 8D03BC501CB79C2F00B7613D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D03BC4E1CB79C2F00B7613D /* LZExamAnki */,
+				8D03BC671CB79C2F00B7613D /* LZExamAnkiTests */,
+				8D03BC721CB79C2F00B7613D /* LZExamAnkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D03BC4D1CB79C2F00B7613D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D03BC621CB79C2F00B7613D /* LaunchScreen.storyboard in Resources */,
+				8D03BC5F1CB79C2F00B7613D /* Assets.xcassets in Resources */,
+				8D03BC5D1CB79C2F00B7613D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D03BC661CB79C2F00B7613D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D03BC711CB79C2F00B7613D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D03BC4B1CB79C2F00B7613D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D03BC9D1CB7A20000B7613D /* LZEAImportViewController.m in Sources */,
+				8D03BC9A1CB7A1F500B7613D /* LZEAShareViewController.m in Sources */,
+				8D03BC911CB7A1C700B7613D /* LZEAFlashCardViewController.m in Sources */,
+				8D03BC5A1CB79C2F00B7613D /* ViewController.m in Sources */,
+				8D03BC571CB79C2F00B7613D /* AppDelegate.m in Sources */,
+				8D03BC8E1CB7A1BB00B7613D /* LZEAWrongQuestionViewController.m in Sources */,
+				8D03BC971CB7A1EA00B7613D /* LZEAAboutViewController.m in Sources */,
+				8D03BC541CB79C2F00B7613D /* main.m in Sources */,
+				8D03BC881CB7A19700B7613D /* LZEAPaperInfoViewController.m in Sources */,
+				8D03BC8B1CB7A1AD00B7613D /* LZEABookmarkQuestionViewController.m in Sources */,
+				8D03BC941CB7A1DE00B7613D /* LZEAFeedbackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D03BC641CB79C2F00B7613D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D03BC6D1CB79C2F00B7613D /* LZExamAnkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D03BC6F1CB79C2F00B7613D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D03BC781CB79C2F00B7613D /* LZExamAnkiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D03BC6A1CB79C2F00B7613D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D03BC4E1CB79C2F00B7613D /* LZExamAnki */;
+			targetProxy = 8D03BC691CB79C2F00B7613D /* PBXContainerItemProxy */;
+		};
+		8D03BC751CB79C2F00B7613D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D03BC4E1CB79C2F00B7613D /* LZExamAnki */;
+			targetProxy = 8D03BC741CB79C2F00B7613D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D03BC5B1CB79C2F00B7613D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D03BC5C1CB79C2F00B7613D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D03BC601CB79C2F00B7613D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D03BC611CB79C2F00B7613D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D03BC7A1CB79C2F00B7613D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D03BC7B1CB79C2F00B7613D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D03BC7D1CB79C2F00B7613D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuoZhan.LZExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D03BC7E1CB79C2F00B7613D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuoZhan.LZExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D03BC801CB79C2F00B7613D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuoZhan.LZExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZExamAnki.app/LZExamAnki";
+			};
+			name = Debug;
+		};
+		8D03BC811CB79C2F00B7613D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuoZhan.LZExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZExamAnki.app/LZExamAnki";
+			};
+			name = Release;
+		};
+		8D03BC831CB79C2F00B7613D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuoZhan.LZExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZExamAnki;
+			};
+			name = Debug;
+		};
+		8D03BC841CB79C2F00B7613D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuoZhan.LZExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZExamAnki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D03BC4A1CB79C2F00B7613D /* Build configuration list for PBXProject "LZExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D03BC7A1CB79C2F00B7613D /* Debug */,
+				8D03BC7B1CB79C2F00B7613D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D03BC7C1CB79C2F00B7613D /* Build configuration list for PBXNativeTarget "LZExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D03BC7D1CB79C2F00B7613D /* Debug */,
+				8D03BC7E1CB79C2F00B7613D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D03BC7F1CB79C2F00B7613D /* Build configuration list for PBXNativeTarget "LZExamAnkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D03BC801CB79C2F00B7613D /* Debug */,
+				8D03BC811CB79C2F00B7613D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D03BC821CB79C2F00B7613D /* Build configuration list for PBXNativeTarget "LZExamAnkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D03BC831CB79C2F00B7613D /* Debug */,
+				8D03BC841CB79C2F00B7613D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D03BC471CB79C2F00B7613D /* Project object */;
+}
